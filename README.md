@@ -1,46 +1,27 @@
-# Hi, I'm Pastalikek65 👋
+# Hi, I'm Pastalikek65
 
-Systems programmer who rebuilds infrastructure primitives from scratch — now mostly on my phone in Termux.
+I build systems software and local-first developer tools. My work spans Go, Rust, C++, Python, and TypeScript, with a focus on clear boundaries, reproducible builds, and software people can run on their own machines.
 
-I learn by reimplementing core systems with zero deps. Lately I've been building offline-first tools that run on a phone, single binary, no Docker.
+## Selected work
 
-## 🧪 What I build — Termux Station + primitives
+| Project | What it does | Engineering focus |
+| --- | --- | --- |
+| [ArchiveBridge](https://github.com/Pastalikek65/archivebridge) | Preserves original media, metadata, and album relationships from Google Photos Takeout exports. | Go CLI, local archive, integrity verification |
+| [BugPack](https://github.com/Pastalikek65/bugpack) | Helps review and redact HAR files, logs, and screenshots before sharing a bug report. | Local processing, privacy review, portable reports |
+| [DocDiff Studio](https://github.com/Pastalikek65/docdiff-studio) | Compares document revisions and produces self-contained reports. | TypeScript, Electron, PDF and DOCX workflows |
+| [DemoForge](https://github.com/Pastalikek65/demoforge) | Records and replays browser workflows, then exports demos and guides. | Playwright, desktop packaging, repeatable capture |
+| [Rehearse](https://github.com/Pastalikek65/rehearse) | Rehearses supported self-hosted upgrades from backups and checks recovery. | Go, Docker, data comparison, evidence reports |
 
-**New — Termux-friendly, built on my phone:**
+## Systems projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| [gh-starview](https://github.com/Pastalikek65/gh-starview) | `gh repo list` as sortable TUI with offline SQLite cache | Go 1.25, bubbletea, 13M |
-| [txs](https://github.com/Pastalikek65/txs) | Single-binary TUI dashboard — github + jobs + db + sys + files | Go, 5 panels, 9.9M |
-| [habit](https://github.com/Pastalikek65/habit) | Habit tracker with streaks | Go, SQLite WAL, 6.8M |
-| [passman](https://github.com/Pastalikek65/passman) | Age-encrypted password manager | Go, age scrypt, 7.1M |
-| [dotman](https://github.com/Pastalikek65/dotman) | Dotfiles manager — git sync + TUI | Go, 5M |
-| [pytermq](https://github.com/Pastalikek65/pytermq) | Ultra-light job queue — SQLite WAL, 30MB | Python, 7 tests |
-| [termux-portfolio](https://pastalikek65.github.io/termux-portfolio/) | My portfolio — single HTML, no build, fetches GitHub API | JS, Tailwind CDN |
-| [sqlite-tui](https://github.com/Pastalikek65/sqlite-tui) | SQLite viewer — tables, rows, WAL | Go, 8.5M |
+- [goredis](https://github.com/Pastalikek65/goredis) — Redis-compatible key-value store with RESP, sharding, and persistence.
+- [gotorrent](https://github.com/Pastalikek65/gotorrent) — BitTorrent client covering bencode, trackers, the peer wire protocol, and verified pieces.
+- [edgewasm-runtime](https://github.com/Pastalikek65/edgewasm-runtime) — Rust service for running WASM modules with resource limits and caching.
+- [mae](https://github.com/Pastalikek65/mae) — C++ mock API server with configurable routes, latency, rate limits, and SQLite-backed CRUD.
+- [Termux tools](https://github.com/Pastalikek65?tab=repositories&q=termux) — small command-line and terminal applications built for constrained environments.
 
-**Core primitives (from scratch, zero deps where possible):**
+## How I work
 
-| Project | What it is |
-|---|---|
-| [termtunnel](https://github.com/Pastalikek65/termtunnel) | P2P TCP/HTTP tunnel over WebRTC + Noise — ngrok for Termux |
-| [goredis](https://github.com/Pastalikek65/goredis) | Redis-compatible KV from scratch — RESP, sharded, RDB/AOF |
-| [gotorrent](https://github.com/Pastalikek65/gotorrent) | BitTorrent client — bencode, tracker BEP 12, peer wire |
-| [cronping](https://github.com/Pastalikek65/cronping) | Tiny cron daemon — alerts via Telegram/Discord/ntfy |
-| [sqlite-backups](https://github.com/Pastalikek65/sqlite-backups) | Hot-backups of live SQLite — Online Backup API, LZ4, S3 |
-| [edgewasm-runtime](https://github.com/Pastalikek65/edgewasm-runtime) | WASM runtime in Rust |
+I keep setup instructions and support boundaries close to the code. For projects with packaged releases, I document the exact artifact and the verification performed for it. I also contribute to other open-source projects; [my pull requests](https://github.com/pulls?q=is%3Apr+author%3APastalikek65) show the work and review history.
 
-## 🌐 Open-source contributions
-
-I contribute upstream to **rclone**, **freeCodeCamp**, **anacrolix/torrent**, **helm**, **alecthomas/participle** — 27 PRs, many merged.
-
-## 🛠️ Tools
-
-Go · Rust · C++ · Python · TypeScript · SQLite · Linux · bubbletea · age · WebRTC · Docker
-
-## 📬
-
-- Built 8 repos on my phone in Termux — `CGO_ENABLED=0`, `modernc.org/sqlite`, `android-arm64` goreleaser
-- Open to systems discussions — `gh-starview` `txs` `habit` all have `demo.gif`
-- Portfolio: https://pastalikek65.github.io/termux-portfolio/
-
+Explore the [full repository list](https://github.com/Pastalikek65?tab=repositories) or my [portfolio](https://pastalikek65.github.io/termux-portfolio/).
