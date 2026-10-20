@@ -22,6 +22,6 @@ I build systems software and local-first developer tools. My work spans Go, Rust
 
 ## How I work
 
-I keep setup instructions and support boundaries close to the code. For projects with packaged releases, I document the exact artifact and the verification performed for it. I also contribute to other open-source projects; [my pull requests](https://github.com/pulls?q=is%3Apr+author%3APastalikek65) show the work and review history.
+I keep setup instructions and support boundaries close to the code. For projects with packaged releases, I document the exact artifact and the verification performed for it. I also contribute to other open-source projects; [my pull requests](https://github.com/search?q=author%3APastalikek65+type%3Apr&type=pullrequests) show the work and review history.
 
 Explore the [full repository list](https://github.com/Pastalikek65?tab=repositories) or my [portfolio](https://pastalikek65.github.io/termux-portfolio/).
